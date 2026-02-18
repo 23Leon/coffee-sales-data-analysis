@@ -1,102 +1,129 @@
-☕ KM FEB24 Surabaya – Team 18
-Coffee Sales Data Analysis Project
-📌 Project Overview
+# ☕ KM FEB24 Surabaya – Team 18  
+## Coffee Sales Data Analysis Project
 
-This repository contains the data analysis project developed by Team 18 – KM FEB24 Surabaya, created via GitHub Classroom.
+---
 
-The project focuses on analyzing large-scale transactional data from a coffee shop operating across three locations in New York City.
+## 📖 Project Overview
+
+This repository contains a data analysis project developed by **Team 18 – KM FEB24 Surabaya**, created via GitHub Classroom.
+
+The project analyzes large-scale transactional data from a coffee shop operating across **three locations in New York City**.
 
 Over a six-month period (January–June), the dataset records approximately:
 
-📦 11 million transactions
-
-🏬 3 store locations
-
-🛍 8 product categories
+- 📦 **11 million transactions**
+- 🏬 **3 store locations**
+- 🛍 **8 product categories**
 
 The goal of this project is to extract actionable insights using data analytics techniques and support data-driven business decisions.
 
-🎯 Project Objectives
+---
 
-Analyze sales performance over time
+## 🎯 Project Objectives
 
-Identify top-performing products and categories
+- Analyze sales performance over time  
+- Identify top-performing products and categories  
+- Compare revenue across store locations  
+- Detect seasonal and temporal trends  
+- Provide business intelligence recommendations  
 
-Compare revenue across store locations
+---
 
-Detect seasonal and temporal trends
-
-Provide business intelligence recommendations
-
-📊 Dataset Description
+## 📊 Dataset Description
 
 The dataset includes:
 
-Transaction ID
+- Transaction ID  
+- Order Date & Time  
+- Store Location  
+- Product Category  
+- Product Name  
+- Quantity Sold  
+- Unit Price  
+- Revenue  
 
-Order date & time
+**Timeframe:** January – June  
+**Scale:** ~11 million transaction records  
 
-Store location
+---
 
-Product category
+## 🔎 Analysis Scope
 
-Product name
+### 1️⃣ Sales Performance Analysis
+- Monthly revenue trends  
+- Sales growth rate  
+- Peak transaction periods  
 
-Quantity sold
+### 2️⃣ Product & Category Insights
+- Revenue contribution per category  
+- Best-selling products  
+- Product demand distribution  
 
-Unit price
+### 3️⃣ Store Performance Comparison
+- Revenue by location  
+- Traffic patterns per branch  
+- Sales distribution per store  
 
-Revenue
+### 4️⃣ Temporal Behavior Analysis
+- Peak hours  
+- Weekday vs weekend comparison  
+- Seasonal trends  
 
-Timeframe:
-🗓 January – June
+---
 
-Scale:
-📈 ~11 million records
+## 🛠 Tools & Technologies
 
-🔎 Analysis Scope
-1️⃣ Sales Performance Analysis
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Plotly  
+- Jupyter Notebook  
 
-Monthly revenue trends
+---
 
-Sales growth rate
+## 📂 Repository Structure
 
-Peak transaction periods
+```
+km-feb24-surabaya-18/
+│
+├── data/
+├── notebooks/
+├── src/
+└── README.md
+```
 
-2️⃣ Product & Category Insights
+---
 
-Revenue contribution per category
+## 🚀 How to Run
 
-Best-selling products
+1. Install required libraries:
 
-Product demand distribution
+```
+pip install -r requirements.txt
+```
 
-3️⃣ Store Performance Comparison
+2. Open Jupyter Notebook:
 
-Revenue by location
+```
+jupyter notebook
+```
 
-Traffic patterns per branch
+3. Run the analysis notebook.
 
-Sales distribution per store
+---
 
-4️⃣ Temporal Behavior Analysis
+## 👥 Team 18 – KM FEB24 Surabaya
 
-Peak hours
+Developed as part of the KM FEB24 Surabaya program through GitHub Classroom.
 
-Weekday vs weekend comparison
+---
 
-Seasonal trends
+## 📈 Business Impact
 
-🛠 Tools & Technologies
+This analysis helps:
 
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
-Plotly
-
-Jupyter Notebook
+- Improve inventory planning  
+- Optimize staffing allocation  
+- Identify revenue growth opportunities  
+- Enhance marketing strategy  
